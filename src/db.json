@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "role": "Admin" },
+    { "id": 2, "name": "Jane Smith", "role": "Editor" }
+  ],
+  "roles": [
+    { "id": 1, "name": "Admin", "permissions": ["Add User", "Delete User", "Edit Content"] },
+    { "id": 2, "name": "Editor", "permissions": ["Edit Content"] },
+    { "id": 3, "name": "Viewer", "permissions": ["View Content"] }
+  ]
+}
